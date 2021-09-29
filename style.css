@@ -1,0 +1,36 @@
+.cta-container {
+    padding: 40px;
+}
+
+.cta-block {
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 auto!important;
+    background: white;
+}
+.cta-block img {
+    width: 90%;
+    max-width: 150px;
+    padding: 25px;
+    margin: 0 auto;
+}
+.cta-block a:hover {
+    cursor: pointer;
+}
+.cta-block a {
+    text-decoration: none;
+    padding: 10px;
+    background: #005ca8;
+    border-radius: 5px;
+    font-weight:bold;
+    color: white;
+    width: 90%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+.cta-block span {
+    padding: 20px 0px;
+}
